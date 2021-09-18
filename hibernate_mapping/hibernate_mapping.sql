@@ -1,0 +1,46 @@
+drop database if exists hibernate_mapping;
+create database hibernate_mapping char set utf8;
+use hibernate_mapping;
+
+CREATE TABLE Customer(
+id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+name VARCHAR(256) NOT NULL,
+email VARCHAR(256) NOT NULL)
+;
+
+CREATE TABLE FinancialOperation(
+id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+date TIMESTAMP NOT NULL,
+total INT NOT NULL,
+customer VARCHAR(256) NOT NULL)
+;
+
+
+CREATE TABLE Cart(
+id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+name VARCHAR(256) NOT NULL)
+;
+
+CREATE TABLE Item(
+id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+quantity INT NOT NULL NOT NULL)
+;
+
+
+CREATE TABLE Groups(
+id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+name VARCHAR(256) NOT NULL)
+;
+
+CREATE TABLE User(
+id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+username VARCHAR(256) NOT NULL,
+password VARCHAR(256) NOT NULL,
+email VARCHAR(256) NOT NULL)
+;
+
+SELECT * FROM Customer;
+SELECT * FROM FinancialOperation;
+
+SELECT * FROM Cart;
+SELECT * FROM Item;
