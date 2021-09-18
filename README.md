@@ -5,8 +5,4 @@ This repository consists of java advance examples:
 - hibernate
 - hibernate mapping
 - servlet, tomcat, jsp
-- spring core
-- spring jpa
-- spring mvc
-- spring file upload
-- spring security
+
