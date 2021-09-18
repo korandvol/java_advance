@@ -1,1 +1,0 @@
-<H3>Page Footer</H3>
