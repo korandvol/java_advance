@@ -1,1 +1,12 @@
-This repository consists of java advance examples,
+This repository consists of java advance examples:
+- unit testing
+- jdbc
+- log4j
+- hibernate
+- hibernate mapping
+- servlet, tomcat, jsp
+- spring core
+- spring jpa
+- spring mvc
+- spring file upload
+- spring security
